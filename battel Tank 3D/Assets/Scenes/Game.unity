@@ -302,11 +302,6 @@ Transform:
   m_Father: {fileID: 724723191}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &590080208 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 2676716807286502345, guid: fb8cd34a553ca7d4998fc6bddeac81a8, type: 3}
-  m_PrefabInstance: {fileID: 2676716807805131545}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &594771837
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,30 +420,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &902149711 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2676716806912044374, guid: fb8cd34a553ca7d4998fc6bddeac81a8, type: 3}
-  m_PrefabInstance: {fileID: 2676716807805131545}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &902149712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902149711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8d54531bea72124aa87672853492a70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  p_PlayerNumber: 1
-  p_Speed: 12
-  p_TurnSpeed: 180
-  p_PitchRange: 0.2
-  p_MovementAudio: {fileID: 590080208}
-  p_EngineIdling: {fileID: 8300000, guid: 4932ab25b84dd7649b80af68a9660ddc, type: 3}
-  p_EngineDriving: {fileID: 8300000, guid: d7ca9fb5aa30155449192b23d7fb3336, type: 3}
 --- !u!1 &1026291647
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,6 +591,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1125085901}
+  - component: {fileID: 1125085902}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -641,6 +613,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1125085902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125085900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6041480db16c34b845a35403e70fbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tankViewScript: {fileID: 314342155925636605, guid: fb8cd34a553ca7d4998fc6bddeac81a8, type: 3}
 --- !u!1001 &1158996493
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1103,9 +1088,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Tank
       objectReference: {fileID: 0}
-    - target: {fileID: 2676716807286502356, guid: fb8cd34a553ca7d4998fc6bddeac81a8, type: 3}
-      propertyPath: m_Constraints
-      value: 84
+    - target: {fileID: 2676716806912044374, guid: fb8cd34a553ca7d4998fc6bddeac81a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb8cd34a553ca7d4998fc6bddeac81a8, type: 3}

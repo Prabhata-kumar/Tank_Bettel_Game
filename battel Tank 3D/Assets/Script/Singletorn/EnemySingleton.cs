@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class EnemySingleton : GenericSingleton<EnemySingleton>
 {
-    public  void Awake()
-    {
-        
-    }
+   
     // Start is called before the first frame update
     void Start()
     {

@@ -5,8 +5,11 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public ViewScript tankViewScript;
+    //public TankEnum tankEnum;
+    //public BulletEnum bulletEnum;
 
-    private void Start()
+    public TankScripatatableObject[] tankScripatatableObjects;
+     private void Start()
     {
         //Instantiate(tankViewScript.gameObject,transform.position,Quaternion.identity);
         CreatTank();

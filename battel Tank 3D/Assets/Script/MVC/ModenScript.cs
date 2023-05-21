@@ -15,4 +15,8 @@ public class ModenScript
     {
         tankController = _tankController;
     }
+
+    public TankEnum tankEnum { get; }
+    public int speed { get; }
+    public int health { get; }
 }

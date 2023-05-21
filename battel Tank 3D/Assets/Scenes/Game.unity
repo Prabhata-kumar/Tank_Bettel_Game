@@ -626,6 +626,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tankViewScript: {fileID: 314342155925636605, guid: fb8cd34a553ca7d4998fc6bddeac81a8, type: 3}
+  tankScripatatableObjects:
+  - {fileID: 11400000, guid: 1b840c0ddac96d64f9ab96e432e33d7b, type: 2}
+  - {fileID: 11400000, guid: c1c0cdc4eafeb5346b071ec31556dfcc, type: 2}
+  - {fileID: 11400000, guid: a8f6d73cfcecb3a49b686a220e3cf72c, type: 2}
 --- !u!1001 &1158996493
 PrefabInstance:
   m_ObjectHideFlags: 0

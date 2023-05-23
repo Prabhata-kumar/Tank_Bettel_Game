@@ -13,6 +13,15 @@ MonoBehaviour:
   m_Name: blue tank
   m_EditorClassIdentifier: 
   tankType: 1
+  scale: {x: 0, y: 0, z: 0}
   tankName: blue blast
-  tankSpeed: 20
-  tankHealth: 50
+  speed: 10
+  tankTurnSpeed: 10
+  Health: 100
+  damage: 50
+  color: {r: 0, g: 0, b: 0, a: 0}
+  minLaunchForce: 30
+  maxLaunchForce: 50
+  maxChargeTime: 0.75
+  currentLaunchForce: 20
+  chargeSpeed: 30

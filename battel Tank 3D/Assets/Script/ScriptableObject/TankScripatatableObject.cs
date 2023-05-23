@@ -6,7 +6,18 @@ using UnityEngine;
 public class TankScripatatableObject :ScriptableObject
 {
     public TankEnum tankType;
+    public Vector3 scale;
     public string tankName;
-    public int tankSpeed;
-    public float tankHealth;
+    public float speed;
+    public float tankTurnSpeed;
+    public float Health;
+    public float damage;
+    public Color color;
+
+    public float minLaunchForce;
+    public float maxLaunchForce = 30f;
+    public float maxChargeTime = 0.75f;
+
+    public float currentLaunchForce;
+    public float chargeSpeed;
 }

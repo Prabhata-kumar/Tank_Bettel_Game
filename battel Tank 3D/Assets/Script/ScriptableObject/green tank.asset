@@ -13,6 +13,15 @@ MonoBehaviour:
   m_Name: green tank
   m_EditorClassIdentifier: 
   tankType: 3
+  scale: {x: 0, y: 0, z: 0}
   tankName: 'Glamer Green '
-  tankSpeed: 10
-  tankHealth: 90
+  speed: 40
+  tankTurnSpeed: 40
+  Health: 110
+  damage: 60
+  color: {r: 0, g: 1, b: 0.14640617, a: 1}
+  minLaunchForce: 30
+  maxLaunchForce: 30
+  maxChargeTime: 0.75
+  currentLaunchForce: 40
+  chargeSpeed: 30

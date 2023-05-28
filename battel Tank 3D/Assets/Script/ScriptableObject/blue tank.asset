@@ -19,7 +19,7 @@ MonoBehaviour:
   tankTurnSpeed: 10
   Health: 100
   damage: 50
-  color: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0, g: 0.39086676, b: 1, a: 1}
   minLaunchForce: 30
   maxLaunchForce: 50
   maxChargeTime: 0.75
